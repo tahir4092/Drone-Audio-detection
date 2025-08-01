@@ -73,7 +73,7 @@ extractMFCCandTrainSVM
 audio_record
 
 % Step 3: Denoise the audio
-wavelet_denoising
+wavelet_denoising or wiener filtering
 
 % Step 4: Predict using trained SVM
 predictSVMFromAudio
