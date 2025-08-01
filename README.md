@@ -20,7 +20,7 @@ This project detects the presence of drone sounds using a machine learning pipel
 
 ## Recording and Preprocessing
 - Audio is recorded using [`audio_record.m`](./audio_record.m).
-- The recorded file is denoised using [`wavelet_denoising.m`](./wavelet_denoising.m).
+- The recorded file is denoised using [`wavelet_denoising.m`](./wavelet_denoising.m)./ [`wiener.m`](./wiener.m)
 - Output:
   - `recorded.wav`: Cleaned audio signal for prediction.
 
